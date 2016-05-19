@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+@import "0-plugins/0-plugins";
+@import "0-modules/0-modules";
+
+* {
+  outline: 1px solid $backgroundDark;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
