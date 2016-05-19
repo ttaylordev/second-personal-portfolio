@@ -1,0 +1,25 @@
+.bottom-wrap {
+  display: inline;
+}
+.bottom-left-block {
+  display: inline-block;
+  // flex: 3;
+  background-image: url('http://placehold.it/350x400/boxColorHex/textColorHex');
+  flex-direction: row;
+  flex-wrap: wrap;
+  // background-color: $backgroundDark;
+  height: 400px;
+  overflow-x: visible;
+}
+.bottom-right-block {
+  display: inline-block;
+  
+  // flex: 5;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $backgroundLight;
+  height: 400px;
+}
+.bottom-text {
+  @include description;
+}

@@ -116,7 +116,7 @@ gulp.task( 'index', function () {
 
 // process styles files and return one css file.
 gulp.task( 'styles', function () {
-  return gulpSrc( [ './dev/styles/core.scss', './dev/styles/*.scss' ], {
+  return gulpSrc( [ './dev/styles/core.scss', './dev/styles/*.scss'], {
       base: './dev'
     } )
     .pipe( plumber( {

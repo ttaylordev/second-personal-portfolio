@@ -1,0 +1,36 @@
+.top-wrap {
+  display: flex;
+}
+.top-left-block {
+  display: inline-block;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $backgroundDark;
+  height: 400px;
+}
+.left-word {
+  font-size: 3em;
+  color: $fontBright;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: 2em;
+}
+.top-right-block {
+  display: inline-block;
+  flex: 2;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $backgroundVeryLight;
+  height: 400px;
+  width: 350px;
+}
+.right-word {
+  font-size: 3em;
+  color: $fontDark;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: 3em;
+}

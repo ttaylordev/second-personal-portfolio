@@ -1,0 +1,22 @@
+.middle-wrap {
+  display: flex;
+}
+.middle-text {
+@include description;
+}
+.middle-left-block {
+  display: inline-block;
+  flex: 5;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $backgroundLight;
+  height: 400px;
+}
+.middle-right-block {
+  display: inline-block;
+  flex: 2;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: $backgroundDark;
+  height: 400px;
+}
