@@ -8,7 +8,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   // background-color: $backgroundDark;
-  height: 400px;
+  height: 300px;
   overflow-x: visible;
 }
 .bottom-right-block {
@@ -18,7 +18,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   background-color: $backgroundLight;
-  height: 400px;
+  height: 300px;
 }
 .bottom-text {
   @include description;

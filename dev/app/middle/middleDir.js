@@ -3,6 +3,6 @@ angular.module( "app" ).directive( "middleDir", function () {
     templateUrl: './../html/middle/middle.html',
     controller: 'homeCtrl',
     restrict: 'E'
-  }
+  };
   
   } );

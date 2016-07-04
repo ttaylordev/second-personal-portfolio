@@ -3,6 +3,6 @@ angular.module( "app" ).directive( "navDir", function () {
     templateUrl: './../html/nav/nav.html',
     controller: 'mainCtrl',
     restrict: 'E'
-  }
+  };
   
   } );

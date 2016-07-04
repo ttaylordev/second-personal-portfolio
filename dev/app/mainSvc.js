@@ -1,11 +1,11 @@
 angular.module( "app" )
-  .service( "mainSvc", function () {
+  .service( "mainSvc", [ '$http', function ( $http ) {
 
     this.mainSvcTest = '...mainSvc';
 
-// ### --- Project and project can be replaced with whichever the index.js post, put, delete, get require as the '/urlhash'. --- ### \\\
+    // ### --- Project and project can be replaced with whichever the index.js post, put, delete, get require as the '/urlhash'. --- ### \\\
 
-const baseUrl = '/project';
+    const baseUrl = '/project';
 
     this.getProjects = function () {
       return $http( {
@@ -56,4 +56,4 @@ const baseUrl = '/project';
         } );
     };
 
-  } );
+  } ] );
